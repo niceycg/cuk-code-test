@@ -10,7 +10,7 @@ jobs:
     name: Code Review # Job name
     steps:
       - name: check code # Step name
-        uses: niceycg/code-review-github-action@2
+        uses: niceycg/code-review-github-action@2.0
         with:
           openai_api_key: ${{ secrets.openai_api_key }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
