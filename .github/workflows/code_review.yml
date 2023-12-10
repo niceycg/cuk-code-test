@@ -10,7 +10,7 @@ jobs:
     name: Code Review # Job name
     steps:
       - name: check code # Step name
-        uses: mz-pentacle/code-review-github-action@1.4
+        uses: niceycg/code-review-github-action@1
         with:
           openai_api_key: ${{ secrets.openai_api_key }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
